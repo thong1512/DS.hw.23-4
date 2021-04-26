@@ -9,7 +9,7 @@ public class ReadCSVFile {
     public static void main(String[] args) {
         // FileWriter writer = null;
         ArrayList<Advertising> datas = readCsv(
-                "D:/Long_Document/VGU-CS/excercise/distributed_system/hw_23_04/advertising.csv");
+                "C:/Users/TERA/Desktop/java/distrubuted_system/23_04/advertising.csv");
         for (Advertising data : datas) {
             System.out.println(data);
         }
