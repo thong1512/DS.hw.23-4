@@ -9,8 +9,8 @@ public class CopyFile {
         FileWriter writer = null;
         
         try {
-            reader = new Scanner(new File("D:/Long_Document/VGU-CS/excercise/distributed_system/hw_23_04/name.txt"));
-            writer = new FileWriter(new File("D:/Long_Document/VGU-CS/excercise/distributed_system/hw_23_04/name_cp.txt"), false);
+            reader = new Scanner(new File("C:/Users/TERA/Desktop/java/distrubuted_system/23_04/name.txt"));
+            writer = new FileWriter(new File("C:/Users/TERA/Desktop/java/distrubuted_system/23_04/name_cp.txt"), false);
             String data = null;
             while (reader.hasNextLine()) {
                 data = reader.nextLine();
